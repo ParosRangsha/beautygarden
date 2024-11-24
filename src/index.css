@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+p{
+  text-align: justify;
+}
+@media (max-width: 756px) {
+  .banner{
+    padding: 0 !important;
+  }
+  .banner h2{
+    font-size: 20px !important;
+  }
+  .banner p{
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+.banner{
+    height: 85vh;
+    padding: 50px 0;
+    background: url(../../img/banner.jpg);
+    background-size: cover;
+}
+.banner #mainhead{
+    color: #dd0;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Sevillana", sans-serif;
+}
+.banner h5{
+    color: #fff;
+    font-family: "Edu AU VIC WA NT Pre", sans-serif;
+}
+.bannerThumb{
+    padding: 60px;
+
+}
+.banner p{
+    font-style: italic;
+    color: #eee;
+}

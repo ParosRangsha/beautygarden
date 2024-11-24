@@ -1,0 +1,12 @@
+.products{
+    padding: 40px 0;
+}
+.products .myItem{
+    padding: 10px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(200, 200, 200, 0.3);
+}
