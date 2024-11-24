@@ -2,11 +2,25 @@
     padding: 40px 0;
 }
 .products .myItem{
-    padding: 10px;
+    padding: 170px 10px 10px;
     background-color: #ddd;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(200, 200, 200, 0.3);
+    position: relative;
+
+}
+.products img{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1.5s;
+}
+.products img:hover{
+    position: absolute;
+    width: 100%;
 }

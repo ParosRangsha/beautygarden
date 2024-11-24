@@ -26,10 +26,10 @@ const Product = () => {
           {myArray.map((item)=>(
               <Col lg={4} className='myItem'>
                 <img src={item.thumbnail} alt="" />
-                <p>Category: {item.category}, Brand: {item.brand}</p>
+                <h4>{item.title}</h4>
                 <h5>Price: {item.price}</h5>
                 <p>Discount: {item.discountPercentage}% </p>
-                <h4>{item.title}</h4>
+                <p>Category: {item.category}, Brand: {item.brand}</p>
                 <p>{item.description}</p>
               </Col>
           ))}

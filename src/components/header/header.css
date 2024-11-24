@@ -6,6 +6,7 @@
     background-color: #557;
     display: flex;
     align-items: center;
+    z-index: 999;
 }
 .navbar-brand{
     color: #cc0;
