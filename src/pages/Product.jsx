@@ -14,7 +14,8 @@ const Product = () => {
   useEffect(()=>{
     getArray()
   })
-  console.log(myArray);
+  let [price, setPrice] = useState('')
+  let [perprice, setperPrice] = useState('')
   
   return (
     <div className="products">
@@ -25,13 +26,15 @@ const Product = () => {
         <Row>
           {myArray.map((item)=>(
               <Col lg={4} className='myItem'>
+              <div className="box">
                 <img src={item.thumbnail} alt="" />
                 <h4>{item.title}</h4>
                 <h5>Price: {item.price}</h5>
                 <p>Discount: {item.discountPercentage}% </p>
                 <p>Category: {item.category}, Brand: {item.brand}</p>
                 <p>{item.description}</p>
-              </Col>
+              </div>
+            </Col>
           ))}
         </Row>
       </Container>  

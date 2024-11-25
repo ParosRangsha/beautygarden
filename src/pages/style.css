@@ -3,7 +3,7 @@
 }
 .products .myItem{
     padding: 170px 10px 10px;
-    background-color: #ddd;
+    background-color: #efefef;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,14 +13,31 @@
 
 }
 .products img{
+    border-radius: 50%;
+    border: 1px solid red;
     width: 150px;
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     transition: 1.5s;
 }
 .products img:hover{
+    top: 0;
     position: absolute;
     width: 100%;
+    background-color: rgba(230, 230, 230, 0.9);
+    border: none;
+    border-radius: 0%;
+}
+.products .box{
+    padding: 20px;
+}
+.about p{
+    display: inline-block;
+    border-radius: 0 200px 0 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.about p:last-child{
+    padding-bottom: 50px;;
 }
